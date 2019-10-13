@@ -1,0 +1,149 @@
+.login-input {
+  width: 130px;
+}
+
+.form-button {
+  width: 80px;
+  height: 35px;
+}
+
+.signup-box {
+  margin: auto;
+  width: 325px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 10px;
+}
+
+.settings-box {
+  margin: auto;
+  width: 325px;
+}
+
+.signup-area {
+  padding: 30px;
+}
+
+.settings-area {
+  padding: 30px;
+}
+
+* { box-sizing: border-box; }
+body {
+    font-size: 1.2em;
+}
+body input, body button, body textarea {
+    font-size: 1.2em;
+}
+#description {
+    height: 500px;
+}
+form > div {
+    margin: 1em;
+}
+form button {
+    width: 100%;
+}
+label { display: block; }
+input, textarea {
+    width: 100%;
+    padding: 0.2em;
+}
+button {
+    padding: 0.2em;
+}
+
+input.error {
+    background: red;
+    color: white;
+}
+label.error {
+    color: red;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+pre {
+  white-space:pre-wrap;
+  font-size: 14px;
+  background-color: #fbe1e166;
+}
+
+textarea#description, input#title {
+    font-size: 14px;
+}
+
+.purchase {
+    width: 40%;
+    margin-left: 30%;
+}
+
+.hero.is-primary.is-bold {
+    background-image: linear-gradient(141deg,#bb2828 0,#fa8072 71%,#ffb3b3 100%);
+}
+
+.input.is-success, .textarea.is-success {
+    border-color: #862625;
+}
+
+.button.is-primary.is-inverted {
+    background-color: #fff;
+    color: #ff5656;
+}
+
+.button.is-primary.is-outlined {
+    background-color: transparent;
+    border-color: #ff5656;
+    color: #ff5656;
+}
+
+.button.is-primary.is-outlined:hover {
+  background-color: #ff5656;
+  border-color: #ff5656;
+  color: white;
+}
+
+.filePickerBox {
+    box-shadow: 0 0 3px 1px #844e4e;
+}
+
+.filePickerBox, #analyze {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+#analyze, #addProject {
+      margin: 0 auto;
+      display: block;
+      width: 50%;
+}
+
+#results {
+  margin: 0 auto;
+}
+
+#filePicker {
+    width: 160px;
+    padding: 0.2em;
+    color: transparent;
+}
+
+.button.is-danger {
+    background-color: #fa8072;
+    border-color: transparent;
+    color: #fff;
+}

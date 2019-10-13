@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block body %}
+{% include "navbar.html" %}
+<section class="hero is-primary is-bold is-large">
+<center>My Job Offers</center>
+</section>
+<div class="hero-body">
+  <div class="row">
+    <div class="column">
+      <center>
+        <div class="select is-danger">
+          <select id="getTitle">
+            <option value="{{ project_exemple.title }}">{{ project_exemple.title }}</option>
+        {% for project in project_list %}
+            <option value="{{ project.title }}">{{ project.title }}</option>
+        {% endfor %}
+        </select>
+        </div>
+        </center>
+        <br />
+        <div id="getDescription">
+              <div id="{{ project_exemple.title }}" style="display:none;"><pre>{{ project_exemple.description }}</pre></div>
+          {% for project in project_list %}
+              <div id="{{ project.title }}" style="display:none;"><pre>{{ project.description }}</pre></div>
+          {% endfor %}
+        </div>
+    </div>
+    <div class="column">
+      <div>
+          <div class="filePickerBox">
+              <label for="filePicker" ><b>Choose or drag a file</b></label>
+              <input type="file" id="filePicker" required multiple>
+              <div id="nbAddedFile"></div>
+          </div>
+      </div>
+      <div>
+          <br>
+          <button id="analyze" class="button is-danger is-rounded">Analyze</button>
+          <br>
+          <br>
+          <div id="results">
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="../static/js/scripts.js"></script>
+{% endblock %}

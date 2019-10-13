@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block body %}
+{% include "navbar.html" %}
+<section class="hero is-primary is-bold is-large">
+<center>Add New Job Offer</center>
+</section>
+<div class="hero-body">
+  <center><h2>{{message}}</h2></center>
+  <form>
+      <div>
+          <label for="title">Title</label>
+          <input type="text" name="title" id="title" class="input is-danger" placeholder="Enter job title" disabled>
+      </div>
+      <div>
+          <label for="description">Description</label>
+          <textarea type="text" name="description" id="description" class="textarea is-danger" placeholder="Enter job description" disabled></textarea>
+      </div>
+      <div>
+          <button id="addProject" class="button is-danger is-rounded is-large" disabled>Add Job Offer</button>
+      </div>
+  </form>
+</div>
+{% endblock %}
+{% block scripts %}
+<script src="../static/js/scripts.js"></script>
+{% endblock %}
