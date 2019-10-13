@@ -5,9 +5,9 @@ Live demo availaible here : http://resumx.herokuapp.com/.<br>
 Find some exemples in the /exemple folder and test with the existing job offer.<br>
 Purchase tha App (Fake functionnality with Stripe : https://stripe.com/docs/testing) if you want to add you own job offers.<br>
 <br>
-<p align="center"><img src="https://raw.githubusercontent.com/ansa-aboudou/resumex/master/media/login.jpg" width="128px"><p>
-<p align="center"><img src="https://raw.githubusercontent.com/ansa-aboudou/resumex/master/media/home.jpg" width="128px"><p>
-<p align="center"><img src="https://raw.githubusercontent.com/ansa-aboudou/resumex/master/media/results.jpg" width="128px"><p>
+<p align="center"><img src="https://raw.githubusercontent.com/ansa-aboudou/resumex/master/static/images/login.jpg" width="128px"><p>
+<p align="center"><img src="https://raw.githubusercontent.com/ansa-aboudou/resumex/master/static/images/home.jpg" width="128px"><p>
+<p align="center"><img src="https://raw.githubusercontent.com/ansa-aboudou/resumex/master/static/images/results.jpg" width="128px"><p>
 
 ## Setup
 Download [(GoogleNews-vectors-negative300)](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM) and put it in root folder<br>
