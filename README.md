@@ -6,7 +6,9 @@ Find some exemples in the /exemple folder and test with the existing job offer.<
 Purchase tha App (Fake functionnality with Stripe : https://stripe.com/docs/testing) if you want to add you own job offers.<br>
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/ansa-aboudou/resumex/master/static/images/login.jpg"><p>
+<hr>
 <p align="center"><img src="https://raw.githubusercontent.com/ansa-aboudou/resumex/master/static/images/home.jpg"><p>
+<hr>
 <p align="center"><img src="https://raw.githubusercontent.com/ansa-aboudou/resumex/master/static/images/results.jpg"><p>
 
 ## Setup
