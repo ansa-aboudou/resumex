@@ -1,10 +1,10 @@
 # Resumex
 <p align="center"><img src="https://raw.githubusercontent.com/ansa-aboudou/resumex/master/static/images/ResumX.jpg" width="128px"><p>
-Resumex is an App that allows you to compute similarity between a job offer and resumes in order to save time and select best applicants.<br>
+Resumex is an App that allows you to compute similarity between a job offer and resumes in order to save time and select best applicants.<br><br>
 You can find a light word2vec pre-trained Google News model here: (GoogleNews-vectors-negative300: https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM)<br>
 Live demo availaible here : http://resumx.herokuapp.com/.<br>
 Find some exemples in the /exemple folder and test with the existing job offer.<br>
-Purchase tha App (Fake functionnality with Stripe : https://stripe.com/docs/testing) if you want to add you own job offers.<br>
+Purchase (Fake functionnality with Stripe : https://stripe.com/docs/testing) if you want to add you own job offers.<br>
 <br>
 <p align="center"><img src="https://raw.githubusercontent.com/ansa-aboudou/resumex/master/static/images/login.jpg"><p>
 <hr>
