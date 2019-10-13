@@ -12,7 +12,7 @@ pip install -r requirements.txt
 python app.py
 ```
 <br>
-## Credit
+## Credit<br>
 These repositories helped me build this project, thank you guys :) :<br>
 - https://github.com/v1shwa/document-similarity<br>
 - https://github.com/eyaler/word2vec-slim<br>
