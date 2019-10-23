@@ -1,4 +1,4 @@
-nltk==3.2.1
+nltk==3.4.5
 WTForms==2.1
 matplotlib==3.0.3
 pandas==0.25.1
